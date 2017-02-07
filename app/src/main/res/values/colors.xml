@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="text_color_white">#ffffff</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="download_delete_text_color">#ff6c00</color>
+    <color name="download_title_color">#444444</color>
+    <color name="download_gridview_splite">#7fdcdcdc</color>
+    <color name="download_gridview_splite_bg">#efefef</color>
+    <color name="download_exception_text_color">#f46f6f</color>
+    <color name="download_gridview_size_color">#b9b9b9</color>
+</resources>

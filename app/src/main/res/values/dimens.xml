@@ -1,0 +1,19 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- 下载页面-->
+    <dimen name="girditem_height">63dp</dimen>
+    <dimen name="girditem_checkbox_margin_left">10dp</dimen>
+    <dimen name="girditem_thumbnail_width">75dp</dimen>
+    <dimen name="girditem_thumbnail_height">43dp</dimen>
+    <dimen name="girditem_thumbnail_margin_left">10dp</dimen>
+    <dimen name="downloading_delete_width">65dp</dimen>
+    <dimen name="girditem_title_margin_top">12dp</dimen>
+    <dimen name="download_cutoff_width">1dp</dimen>
+    <dimen name="girditem_title_margin_left">10dp</dimen>
+    <dimen name="download_item_title_margin">10dp</dimen>
+    <dimen name="download_item_title_text_size">12dp</dimen>
+    <dimen name="girditem_progess_margin_top">2dp</dimen>
+    <dimen name="girditem_size_text_size">10dp</dimen>
+</resources>

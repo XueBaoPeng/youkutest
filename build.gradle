@@ -1,0 +1,27 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.2.1'
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+
+ext {
+    minSdkVersion = 18
+    compileSdkVersion = 21
+    targetSdkVersion = compileSdkVersion
+    buildToolsVersion = "23.0.1"
+    minifyEnabled = true
+}
