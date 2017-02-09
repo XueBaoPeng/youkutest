@@ -14,18 +14,6 @@ public class HttpTest  {
 
 
      public static void main(String args[]){
-       OkHttpClient okHttpClient=OkHttpClient.getInstance();
-         okHttpClient.get("http:www.baidu.com", new HttpResonCallback() {
-             @Override
-             public void onSuccess(Object response) {
-                 System.out.print(response);
-             }
-
-             @Override
-             public void onFailure(Object error) {
-
-             }
-         });
          OkHttpClient okHttpClient1=OkHttpClient.getInstance();
          Map<String, Object> params = new HashMap<String, Object>();
          params.put("username", "13519297683@163.com");
@@ -42,7 +30,7 @@ public class HttpTest  {
 
              @Override
              public void onFailure(Object error) {
-
+                 System.out.print(error.toString());
              }
          });
     }
